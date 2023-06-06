@@ -9,7 +9,7 @@ import { Client } from './client';
 })
 export class ClientService {
 
-url = "http://localhost:3000/clients";
+url = "http://localhost:8080/clients";
 
   constructor(private http: HttpClient) { }
 
